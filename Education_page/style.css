@@ -154,9 +154,16 @@ a {
   font-size: 16px;
   color: #00a4ff;
 }
-.goods ul li {
+.goods ul {
+  margin-left: 30px;
+}
+.goods ul li  {
+  float: left;
+}
+.goods ul li a {
   float: left;
   padding: 0 30px;
+  font-size: 16px;
   border-left: 1px solid #bfbfbf;
 }
 .goods .mod {
